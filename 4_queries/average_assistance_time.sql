@@ -1,2 +1,2 @@
-SELECT avg(started_at - completed_at) as average_assistance_request_duration
+SELECT avg(completed_at - started_at) as average_assistance_request_duration
 FROM assistance_requests
